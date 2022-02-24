@@ -1,19 +1,7 @@
 import React, { useState } from "react"
-import Card from "../components/Card"
-import content from "../utils/data"
-import Video1 from "../assets/videos/stories-01.mp4"
-import Video2 from "../assets/videos/stories-02.mp4"
-import Video3 from "../assets/videos/stories-03.mp4"
 import { Link } from "react-router-dom"
 
 export default function Home() {
-  const [isPlaying, setIsPlaying] = useState(false)
-  // const content = [
-  //   "Watch this tiny puppy grow to be 170 pounds and tower over his little boy.",
-  //   "Mom looks at footage from cameras in her kid's rooms and sees the dog checking in on each of them every night.",
-  //   "People track down a stray dog's puppies in the woods and find the most amazing little cave she built for them.",
-  // ]
-
   return (
     <div className="m-0 min-h-screen font-poppins">
       <div className="bg-cover bg-center bg-header h-screen text-black">
