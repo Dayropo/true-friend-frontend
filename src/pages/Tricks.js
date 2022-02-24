@@ -12,7 +12,7 @@ import {
 import { FiUser } from "react-icons/fi"
 
 export default function Tricks() {
-  const socket = io("http://localhost:3001")
+  const socket = io("https://true-friend-backend-2.herokuapp.com")
 
   const [state, setState] = useState({ comment: "" })
   const [comments, setComments] = useState([])
